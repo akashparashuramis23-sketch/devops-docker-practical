@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    container_name: compose-python-app
+    ports:
+      - "5001:5000"
